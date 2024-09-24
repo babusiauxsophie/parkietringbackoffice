@@ -1,0 +1,69 @@
+/* tables and table-items */
+.data-container {
+  margin-top: 1rem;
+}
+
+.data-container--dashboard {
+  background-color: var(--bright-dimmed);
+  padding: 1rem;
+  border-radius: 8px;
+}
+
+.tabel {
+  display: flex;
+  padding-left: 1rem;
+  padding-top: 1rem;
+  width: 50rem;
+  gap: 8rem;
+  margin-bottom: 1rem;
+}
+
+.tabel--long {
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.tabel--long__grey {
+  background-color: var(--dim);
+  align-items: center;
+  padding: 0.5rem;
+  justify-content: space-between;
+  border-radius: 4px;
+  padding-left: 1rem;
+}
+
+.date-time {
+  margin-right: 50%;
+}
+
+.tabel--name__small {
+  font-size: smaller;
+}
+
+.table--name__small--second {
+  margin-left: 4rem;
+}
+
+.table--name__small--third {
+  margin-left: 2rem;
+}
+
+.tabel--name__middle {
+  margin-left: 10rem;
+}
+
+.tabel--name__middle--second {
+  margin-left: 13.5rem;
+}
+
+.table--name__dashboard {
+  width: 20%;
+  font-weight: 700;
+  color: var(--text-color);
+}
+
+.data--card__list {
+  padding-left: 0;
+  margin-top: 1rem;
+}
+

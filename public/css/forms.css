@@ -1,0 +1,143 @@
+/* forms and form-wrappers */
+
+.form-group {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 0.5rem;
+}
+
+.form-group input {
+  width: 50%;
+  border-radius: 4px;
+  border: none;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 8px 8px 20px hsla(0, 0%, 0%, 0.1);
+  margin-top: 0.3rem;
+}
+
+.form-group--small input {
+  width: 25%;
+}
+
+.form-group--radio label {
+  margin-bottom: 0.5rem;
+}
+.form-group--radio input {
+  width: 2rem;
+}
+
+.member-card {
+  background-color: var(--dim);
+  padding: 2rem;
+  border-radius: 12px;
+  width: 70%;
+}
+
+.order-card {
+  background-color: var(--dim);
+  padding: 2rem;
+  border-radius: 12px;
+  width: 70%;
+}
+
+.member-card--profile {
+  margin-top: 1.5rem;
+}
+
+.price-card {
+  background-color: var(--dim);
+  padding: 2rem;
+  border-radius: 12px;
+  width: 30%;
+}
+
+.price-input {
+  width: 100%;
+  border-radius: 4px;
+  border: none;
+  padding: 0.5rem;
+}
+
+.price-input input {
+  box-shadow: 8px 8px 20px hsla(0, 0%, 0%, 0.1);
+}
+
+.price-title {
+  padding-left: 0.5rem;
+  font-weight: 700;
+  color: var(--text-color);
+  font-size: smaller;
+}
+
+.order-flex {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.order-flex--item {
+  width: 30%;
+  margin-bottom: 1rem;
+  display: flex;
+  flex-direction: column;
+}
+
+.order-flex--item input {
+  margin-top: 0.5rem;
+  border: none;
+  padding: 0.4rem;
+  box-shadow: 8px 8px 20px hsla(0, 0%, 0%, 0.1);
+}
+
+.form-group--select {
+  width: 30%;
+  margin-bottom: 1rem;
+}
+
+.form-group--select select {
+  background-color: var(--bright);
+  border-radius: 4px;
+  padding: 0.5rem;
+  border: none;
+  margin-top: 0.5rem;
+  width: 100%;
+  box-shadow: 8px 8px 20px hsla(0, 0%, 0%, 0.1);
+}
+
+.form-group--select--large {
+  width: 50%;
+}
+
+.member-flex {
+  display: flex;
+}
+
+.member-flex--item {
+  width: 80%;
+}
+
+.form-check-input {
+  width: 1rem;
+  height: 1rem;
+}
+
+.no-edit {
+  background-color: var(--bright);
+  width: 10%;
+  border-radius: 4px;
+  border: none;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  box-shadow: 8px 8px 20px hsla(0, 0%, 0%, 0.1);
+  margin-top: 0.3rem;
+}
+
+.form-group--profile input {
+  background-color: var(--bright);
+}
+
+.title-dashboard {
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}

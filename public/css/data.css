@@ -1,0 +1,90 @@
+/* items loaded from database */
+
+.data--item {
+  display: flex;
+  align-items: center;
+  background-color: hsla(0, 0%, 11%, 0.09);
+  padding: 0.2rem;
+  padding-left: 1rem;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  height: 3rem;
+}
+
+.data--item--small {
+  justify-content: space-between;
+}
+
+.data--item--order {
+  justify-content: space-between;
+}
+
+.data-item__first--order {
+  gap: 3rem;
+}
+
+.data--item__first {
+  display: flex;
+}
+
+.data--first {
+  width: 13.5rem;
+}
+
+.data--name {
+  width: 20rem;
+}
+
+.data--id {
+  width: 3.9rem;
+}
+
+.data--street {
+  width: 14rem;
+}
+
+.data--city {
+  width: 6.5rem;
+}
+
+.data--item--price {
+  margin-left: 0.2rem;
+}
+
+.data--ring {
+  width: 9.8rem;
+}
+
+.total {
+  margin-left: 1.9rem;
+}
+
+.type {
+  margin-left: 2.1rem;
+}
+
+.button-container {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.data--button {
+  width: 5rem;
+  height: 2rem;
+  background-color: var(--primary);
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: auto;
+  border: none;
+}
+
+.data--button--red {
+  background-color: var(--danger);
+}
+
+.data--button img {
+  width: 1.2rem;
+  height: 1.2rem;
+}

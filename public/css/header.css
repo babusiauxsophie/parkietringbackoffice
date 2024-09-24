@@ -1,0 +1,58 @@
+/* headers */
+
+.wrapper {
+  width: 100%;
+  padding: 2rem;
+  max-width: 100%;
+  overflow-x: hidden;
+}
+
+.header-breadcrumbs {
+  margin-bottom: 1rem;
+  color: var(--primary-light);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.header-breadcrumbs a {
+  color: var(--primary-light);
+  text-decoration: none;
+}
+
+a.active-page {
+  font-weight: 600;
+  color: var(--text-color);
+}
+
+.header-titles {
+  display: flex;
+  align-items: center;
+  gap: 20rem;
+  margin-bottom: 1rem;
+  color: var(--text-color);
+}
+
+.header-titles--search {
+  justify-content: space-between;
+}
+
+.top {
+  padding-top: 1.5rem;
+}
+
+.dashboard-top {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dashboard-top a {
+  text-decoration: none;
+}
+
+.searchbar input {
+  border-radius: 8px;
+  border: 2px solid var(--dim);
+  padding: 0.5rem;
+  width: 20rem;
+}
